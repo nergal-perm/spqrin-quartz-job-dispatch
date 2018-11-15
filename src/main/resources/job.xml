@@ -13,16 +13,6 @@
             <job-class>com.example.demo.DispatcherJob</job-class>
             <durability>true</durability>
             <recover>false</recover>
-            <job-data-map>
-                <entry>
-                    <key>job1</key>
-                    <value>SampleDataImportJob</value>
-                </entry>
-                <entry>
-                    <key>job2</key>
-                    <value>SampleChainedJob</value>
-                </entry>
-            </job-data-map>
         </job>
 
         <job>
